@@ -37,7 +37,7 @@ export default function NavLinks() {
         const LinkIcon = link.icon;
         return (
 
-          <div>
+          
 
             <Link key={link.name}
               href={link.href}
@@ -55,7 +55,7 @@ export default function NavLinks() {
 
             </Link>
 
-          </div>
+          
 
         );
       })}
